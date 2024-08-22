@@ -1,0 +1,156 @@
+body {
+    border: 1px solid #111;
+}
+
+nav {
+    background-color: #8fe182;
+    border: 1px solid #111;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+nav a[data-element="logo"] img {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    height: 55px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+ul li {
+    display: flex;
+    margin-left: 10px;
+}
+
+ul li a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a img {
+    height: 30px;
+    width: auto;
+}
+
+ul li a:hover img {
+    opacity: 0.8;
+}
+
+main {
+    border: 1px solid #111;
+    background-color: #cac1c1bd;
+    text-align: justify;
+}
+
+main img {
+    height: 150px;
+    width: auto;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+main a[data-element="foto"] img {
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+#container {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cell1,
+#cell2 {
+    display: flex;
+    width: 49%;
+    margin-bottom: 8px;
+    height: 200px;
+    text-align: center;
+}
+
+#cell1 {
+    background-color: #f4f4f4;
+    margin-left: 8px;
+}
+
+#cell2 {
+    background-color: #e0e0e0;
+    margin-right: 8px;
+}
+
+#cell3 {
+    display: flex;
+    width: 95%;
+    height: 200px;
+    background-color: #ccc;
+    border: 1px solid #111;
+    padding: 10px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.contenitore {
+    display: flex;
+    width: 100%;
+    /* Occupa tutta la larghezza disponibile */
+}
+
+/* Stile per la colonna sinistra */
+.colonna-sx {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid 111;
+    align-items: center;
+}
+
+/* Stile per la colonna destra */
+.colonna-dx {
+    flex: 4;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: auto;
+    flex-direction: column-reverse;
+}
+
+footer {
+    border-top: 25px;
+    height: 55px;
+    width: 100%;
+    background-color: #8fe182;
+    box-sizing: border-box;
+}
+
+nav>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
